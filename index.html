@@ -11,17 +11,17 @@
 <body>
    <header class="banner">
       <h1>Accessibility fundamentals and HTML semantic</h1>
-      <nav class="menu">
+      <nav class="menu" role="menu">
          <ul>
-            <li>
+            <li role="menuitem">
                <a href="#html_and_accessibility" target="_blank">A good basis for accessibility</a>
-               <ul>
-                  <li><a href="#good_semantics" target="_blank">Good Semantic</a></li>
-                  <li><a href="#text_content" target="_blank">Text content</a></li>
-                  <li><a href="#page_layouts" target="_blank">Page layouts</a></li>
+               <ul role="menu">
+                  <li role="menuitem"><a href="#good_semantics" target="_blank">Good Semantic</a></li>
+                  <li role="menuitem"><a href="#text_content" target="_blank">Text content</a></li>
+                  <li role="menuitem"><a href="#page_layouts" target="_blank">Page layouts</a></li>
                </ul>
             </li>
-            <li><a href="#address" target="_blank">Contact us</a></li>
+            <li role="menuitem"><a href="#address" target="_blank">Contact us</a></li>
          </ul>
       </nav>
    </header>
@@ -59,9 +59,9 @@
             </div>
          </section>
          <section>
-            <h3>
+            <h4>
                <a href="#good_semantics" title="Permalink to Good Semantic">Good semantics</a>
-            </h3>
+            </h4>
             <div id="good_semantics">
                <p>We've already talked about the importance of proper semantics, and why we should use the right HTML
                   element for the job. This cannot be ignored, as it is one of the main places that accessibility is
@@ -77,9 +77,9 @@
             </div>
          </section>
          <section>
-            <h3>
+            <h4>
                <a href="#text_content" title="Permalink to Text content">Text content</a>
-            </h3>
+            </h4>
             <div id="text_content">
                <p>One of the best accessibility aids a screen reader user can have is an excellent content structure
                   with headings, paragraphs, lists, etc. An excellent semantic example might look something like the
@@ -99,9 +99,9 @@
             </div>
          </section>
          <section>
-            <h3>
+            <h4>
                <a href="#page_layouts" title="Permalink to Page layouts">Page layouts</a>
-            </h3>
+            </h4>
             <div id="page_layouts">
                <!-- Add image with code example here -->
                <figure>
