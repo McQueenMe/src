@@ -2,37 +2,53 @@
 <html lang="en-US" dir="ltr">
 
 <head>
-   <title>Web CV - Nikita Yagodchenko</title>
    <meta charset="UTF-8">
    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+   <title>Web CV - Nikita Yagodchenko</title>
 </head>
 
 <body>
-   <!-- This page is created for "Introduction to HTML" training course. -->
-   <header>
+   <!-- Эта страница создана для учебного курса «Введение в HTML». -->
+   <header class="header">
       <h1>Web CV - Nikita Yagodchenko</h1>
-      <aside>
-         <h2>Phone number</h2>
-         <p>123-456-7890</p>
-      </aside>
+      <nav class="menu">
+         <ul>
+            <li><a href="about.html" target="_blank">О нас</a></li>
+            <li><a href="services.html" target="_blank">Услуги</a></li>
+            <li><a href="contact.html" target="_blank">Контакты</a></li>
+         </ul>
+      </nav>
    </header>
-   <main>
-      <section>
+   <main id="main">
+      <section class="section">
          <h2>Summary</h2>
          <p>Born on November 10, 2004 in Donetsk.</p>
          <p>I am interested in reading books, sports and self-development.</p>
       </section>
-      <section>
+      <section class="section">
          <h2>Education</h2>
          <p>Currently I am studying at Odessa National Technical University.</p>
          <p>2nd year specialty: "Software Engineering"</p>
       </section>
-      <section>
+      <section class="section">
          <h2>Work Experience</h2>
          <p>None</p>
       </section>
+      <aside class="sidebar">
+         <h3>Phone number</h3>
+         <p>123-456-7890</p>
+      </aside>
    </main>
-   <footer>
+   <footer id="footer">
       <p>© My Copyright</p>
    </footer>
+   <div id="page_layouts">
+      <!-- Этот элемент предназначен для добавления изображения -->
+      <figure>
+         <img src="./images/code-example.PNG" alt="Modern website structure example">
+         <figcaption>Modern website structure example</figcaption>
+      </figure>
+   </div>
 </body>
+
+</html>
