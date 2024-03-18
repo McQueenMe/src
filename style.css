@@ -1,39 +1,39 @@
-body{
+body {
    font-family: Arial, Helvetica, sans-serif;
 }
-#main-header{
+#main-header {
    padding: 10px;
    border: 3px solid darkblue;
 }
-.main-heading{
+.main-heading {
    font-style: italic;
    text-decoration: underline dotted;
 }
-section{
+section {
    padding: 10px;
    margin-top: 10px;
 }
 
-section.tech{
+section.tech {
    border: 3px solid darkolivegreen;
 }
-section.spaceflight{
+section.spaceflight {
    border: 3px solid darkmagenta;
 }
-section.science-astronomy{
+section.science-astronomy {
    border: 3px solid darkcyan;
 }
-.tech h2{
+.tech h2 {
    color: darkgrey;
 }
-header > h2{
+header > h2 {
    padding-left: 10px;
-border-left: 3px solid darksalmon;
+   border-left: 3px solid darksalmon;
 }
-nav{
-   border-left: 4px solid;
+#main-header > nav {
+   border-left: 4px solid; /* Добавленный селектор */
 }
-.main-footer {
+#main-header ~ .main-footer {
    padding: 10px;
    margin-top: 10px;
    border: 3px solid darkkhaki;
@@ -55,7 +55,7 @@ ol > li:last-child {
    border-top: 3px solid darkturquoise;
 }
 a:focus {
-   outline: none; /* Добавленный селектор */
+   background-color: yellow;
 }
 
 .main-footer a:hover {
@@ -66,9 +66,10 @@ a:focus {
    background-color: yellow;
 }
 
-.tech h2::before{
+.tech h2::before {
    content: '🤖';
 }
-.spaceflight h2::after{
+.spaceflight h2::after {
    content: '🚀';
 }
+
