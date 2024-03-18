@@ -30,17 +30,18 @@ header > h2{
    padding-left: 10px;
 border-left: 3px solid darksalmon;
 }
-header + nav{
+#main-header nav{
    border-left: 4px solid;
 }
-.main-footer{
+#main-header ~ .main-footer {
    padding: 10px;
-margin-top: 10px;
-border: 3px solid darkkhaki;
+   margin-top: 10px;
+   border: 3px solid darkkhaki;
 }
-.main-navigation ul{
+
+#main-header ~ .main-footer ul {
    list-style: none;
-padding-left: 15px;
+   padding-left: 15px;
 }
 #main-header + .main-footer {
    border-top: 3px solid darkkhaki; /* Добавленный селектор */
@@ -53,7 +54,7 @@ ol > li:first-child {
 ol > li:last-child {
    border-top: 3px solid darkturquoise;
 }
-a:focus {
+.main-footer a:focus {
    outline: none; /* Добавленный селектор */
 }
 
