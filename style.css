@@ -33,17 +33,17 @@ header > h2 {
 h1 + nav {
    border-left: 4px solid; /* Добавленный селектор */
 }
-#main-header ~ .main-footer {
+.main-footer {
    padding: 10px;
    margin-top: 10px;
    border: 3px solid darkkhaki;
 }
 
-#main-header ~ .main-footer ul {
+.main-footer ul {
    list-style: none;
    padding-left: 15px;
 }
-#main-header ~ .main-footer {
+.main-footer {
    border-top: 3px solid darkkhaki; /* Добавленный селектор */
 }
 
