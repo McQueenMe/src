@@ -30,10 +30,10 @@ header > h2{
    padding-left: 10px;
 border-left: 3px solid darksalmon;
 }
-#main-header nav{
+nav{
    border-left: 4px solid;
 }
-#main-header ~ .main-footer {
+.main-footer {
    padding: 10px;
    margin-top: 10px;
    border: 3px solid darkkhaki;
@@ -54,7 +54,7 @@ ol > li:first-child {
 ol > li:last-child {
    border-top: 3px solid darkturquoise;
 }
-.main-footer a:focus {
+a:focus {
    outline: none; /* Добавленный селектор */
 }
 
