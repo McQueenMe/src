@@ -59,17 +59,18 @@ a.contact:active{
 }
 
 .contact-phone::before {
-   background: url('images/phone-call.svg');
    content: "";
+   background: url('images/phone-call.svg'); 
 }
 
 .contact-inst::before {
-   background: url('images/instagram-logo.svg');
-   content: "";
+   content: ""; 
+   background: url('images/instagram-logo.svg'); 
 }
+
 .contact-twitter::before {
-   background: url('images/twitter.svg');
-   content: "";
+   content: ""; 
+   background: url('images/twitter.svg'); 
 }
 
 h1{
@@ -77,10 +78,7 @@ h1{
    border-bottom: 3px solid rgb(112, 128, 144);
 }
 section {
-   padding-top: 2rem;
-   padding-right: 2rem;
-   padding-bottom: 2rem;
-   padding-left: 2rem;
+   padding: 2rem;
 }
 
 section.summary{
@@ -100,8 +98,8 @@ section.work-experience{
 }
 table {
    width: 100%;
-   border-collapse: collapse;
-   border: 3px solid purple;
+   border-collapse: collapse; 
+   border: 3px solid purple; 
  }
 
 .work-experience-years-col{
