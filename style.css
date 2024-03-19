@@ -1,74 +1,132 @@
 body {
    font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
 }
-#main-header {
-   padding: 10px;
-   border: 3px solid darkblue;
+
+.contact::before {
+   content: '';
+   display: inline-block;
+   margin-right: 10px;
+   width: 1rem;
+   height: 1rem;
+   background-size: cover;
 }
-.main-heading {
+
+.main-header{
+   background-image: linear-gradient(99.9deg, rgba(27,24,31,1) 21.2%, rgba(50,4,89,1) 84.8%);
+   background-color: purple;
+   color: #fff;
+   padding: 2rem;
+}
+
+.main-quote{
+   margin: 0 0 20px 0;
    font-style: italic;
-   text-decoration: underline dotted;
-}
-section {
-   padding: 10px;
-   margin-top: 10px;
+   font-size: 1.5rem;
+   color: #8C92AC;
 }
 
-section.tech {
-   border: 3px solid darkolivegreen;
-}
-section.spaceflight {
-   border: 3px solid darkmagenta;
-}
-section.science-astronomy {
-   border: 3px solid darkcyan;
-}
-.tech h2 {
-   color: darkgrey;
-}
-header > h2 {
-   padding-left: 10px;
-   border-left: 3px solid darksalmon;
-}
-h1 + nav {
-   border-left: 4px solid; /* Добавленный селектор */
-}
-.main-footer {
-   padding: 10px;
-   margin-top: 10px;
-   border: 3px solid darkkhaki;
+.avatar-figure{
+   background-image: url('images/stars.jpg');
+   background-color: rgb(47, 47, 91);
+   background-size: cover;
+   margin: 0;
+   padding: 1 rem;
 }
 
-.main-footer ul {
+.avatar-figure img{
+border: 3px solid #fff;
+}
+
+ul.contacts{
    list-style: none;
-   padding-left: 15px;
-}
-.main-footer {
-   border-top: 3px solid darkkhaki; /* Добавленный селектор */
+   display: inline-block;
 }
 
-ol > li:first-child {
-   border-bottom: 3px solid darkmagenta;
+a.contact:visited{
+   color: rgb(128, 128, 128);
 }
 
-ol > li:last-child {
-   border-top: 3px solid darkturquoise;
-}
-a:focus {
-   background-color: yellow;
+a.contact:active{
+   color: rgb(151, 154, 170);
 }
 
-.main-footer a:hover {
-   color: yellowgreen;
+.contact-phone::before{
+   background: url('images/phone-call.svg');
 }
 
-.main-footer a:active {
-   background-color: yellow;
+.contact-inst::before{
+   background: url('images/instagram-logo.svg')
 }
-
-.tech h2::before {
-   content: '🤖';
+.contact-twitter::before{
+   background: url('images/twitter.svg');
 }
-.spaceflight h2::after {
-   content: '🚀';
+h1{
+   padding-bottom: 30px;
+   border-bottom: 3px solid rgb(112, 128, 144);
+}
+section{
+   padding: 2rem;
+}
+section.summary{
+   padding: 2 rem;
+   text-shadow: 1px 1px 2px pink;
+}
+.space{
+   background: url('images/rocket_big.png') no-repeat center, url('images/space.jpg') no-repeat bottom center;
+   float: left;
+   width: 8rem;
+   height: 8rem;
+   border-radius: 50%;
+   margin-right: 15px;
+}
+section.work-experience{
+   margin-top: 2rem;
+}
+table {
+   width: 100%;
+   border-collapse: collapse;
+ }
+ 
+ table, th, td {
+   border: 3px solid purple;
+ }
+.work-experience-years-row{
+   width: 15%;
+}
+.work-experience-job-title-row{
+   width: 20%;
+}
+.work-experience-comment-row{
+   width: 65%;
+}
+th{
+   letter-spacing: 2px;
+   padding: 20px;
+   text-align: left;
+}
+td{
+text-align: right;
+}
+tfoot th{
+   text-align: right;
+}
+thead, tfoot{
+   background-image: url('images/leopardskin.jpg');
+   color: #fff;
+   text-shadow: 1px 1px 1px black;
+}
+caption{
+   padding: 20px;
+   caption-side: bottom;
+   color: #666;
+   font-style: italic;
+   text-align: right;
+   letter-spacing: 1px;
+}
+footer.main-footer{
+   background-image: linear-gradient(99.9deg, rgba(27,24,31,1) 21.2%, rgba(50,4,89,1) 84.8%);
+   border-right-color: purple;
+   color: #fff;
+   padding: 2rem;
 }
