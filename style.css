@@ -52,14 +52,14 @@ a.contact:active{
 }
 
 .contact-phone::before{
-   background: url('images/phone-call.svg');
+   background: url('images/phone-call.svg') no-repeat;
 }
 
 .contact-inst::before{
-   background: url('images/instagram-logo.svg')
+   background: url('images/instagram-logo.svg') no-repeat;
 }
 .contact-twitter::before{
-   background: url('images/twitter.svg');
+   background: url('images/twitter.svg') no-repeat;
 }
 h1{
    padding-bottom: 30px;
@@ -69,7 +69,7 @@ section{
    padding: 2rem;
 }
 section.summary{
-   padding: 2 rem;
+   padding: 2rem;
    text-shadow: 1px 1px 2px pink;
 }
 .space{
