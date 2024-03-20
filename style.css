@@ -45,7 +45,7 @@ footer {
    column-count: 3;
    column-gap: 20px;
 }
-.client_stories h2{
+.main h2{
    column-span: all;
    text-align: center;
    width: 100%;
@@ -70,9 +70,6 @@ footer {
    overflow: auto;
 }
 
-aside{
-   position: relative;
-}
 form{
    position: absolute;
    bottom: 0; 
