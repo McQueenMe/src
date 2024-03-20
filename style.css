@@ -6,9 +6,7 @@ body {
 main {
    width: 70%;
    position: relative;
-   left: 0;
    float: left;
-   height: 100%;
 }
 
 aside {
@@ -16,7 +14,6 @@ aside {
    position: relative;
    width: 30%;
    float: right;
-   height: 100%;
    z-index: 1;
 }
 
@@ -49,8 +46,8 @@ footer {
    text-align: center;
    width: 100%;
 }
-.all-columns {
-   width: 100%; 
+.column{
+   width: 100%;
 }
 
 
