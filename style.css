@@ -3,6 +3,10 @@ body {
    position: relative;
 }
 
+* {
+   box-sizing: inherit; 
+}
+
 main {
    width: 70%;
    position: relative;
@@ -50,7 +54,6 @@ footer {
    width: 100%;
 }
 
-
 .features {
    column-count: 2;
    column-gap: 0;
@@ -60,6 +63,7 @@ footer {
 .features h2{
    text-align: center;
    column-span: all;
+   width: 100%;
 }
 
 .info{
