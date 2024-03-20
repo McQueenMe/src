@@ -12,12 +12,12 @@ main {
 }
 
 aside {
-    height: 150vh;
-    position: relative;
-    width: 30%;
-    float: right;
-    height: 100%;
-    z-index: 1;
+   height: 150vh;
+   position: relative;
+   width: 30%;
+   float: right;
+   height: 100%;
+   z-index: 1;
 }
 
 header {
@@ -40,33 +40,40 @@ footer {
     height: 460px;
 }
 
-.client_stories h2 {
+.client_stories {
+   column-count: 3;
+   column-gap: 20px;
+}
+.client_stories h2{
    column-span: all;
    text-align: center;
-   width: 100%; 
+   width: 100%;
 }
-
 .all-columns {
    width: 100%; 
 }
 
+
 .features {
    column-count: 2;
-   column-gap: 0; 
+   column-gap: 0;
    width: 100%;
 }
 
-.features h2 {
+.features h2{
    text-align: center;
    column-span: all;
 }
 
-.info {
+.info{
    overflow: auto;
 }
 
-form {
-   position: absolute; 
+aside{
+   position: relative;
+}
+form{
+   position: absolute;
    bottom: 0; 
    left: 0; 
    width: 100%; 
